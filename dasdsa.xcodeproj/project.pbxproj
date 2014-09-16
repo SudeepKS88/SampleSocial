@@ -14,6 +14,7 @@
 		FFCE74A419C41A73004B2602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCE74A219C41A73004B2602 /* Main.storyboard */; };
 		FFCE74A619C41A73004B2602 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCE74A519C41A73004B2602 /* Images.xcassets */; };
 		FFCE74B219C41A73004B2602 /* dasdsaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE74B119C41A73004B2602 /* dasdsaTests.m */; };
+		FFCE754419C4238D004B2602 /* libButtonCompo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCE754119C42384004B2602 /* libButtonCompo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +24,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = FFCE749119C41A73004B2602;
 			remoteInfo = dasdsa;
+		};
+		FFCE753C19C42384004B2602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFCE74C419C41A87004B2602;
+			remoteInfo = dsaddsdsdsadsad;
+		};
+		FFCE753E19C42384004B2602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFCE74DD19C41A88004B2602;
+			remoteInfo = dsaddsdsdsadsadTests;
+		};
+		FFCE754019C42384004B2602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFCE74F519C41B0B004B2602;
+			remoteInfo = ButtonCompo;
+		};
+		FFCE754219C42384004B2602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFCE74FF19C41B0B004B2602;
+			remoteInfo = ButtonCompoTests;
+		};
+		FFCE754519C42393004B2602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCE74F419C41B0B004B2602;
+			remoteInfo = ButtonCompo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,6 +76,7 @@
 		FFCE74AB19C41A73004B2602 /* dasdsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dasdsaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCE74B019C41A73004B2602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFCE74B119C41A73004B2602 /* dasdsaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dasdsaTests.m; sourceTree = "<group>"; };
+		FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = dsaddsdsdsadsad.xcodeproj; path = ../dsaddsdsdsadsad/dsaddsdsdsadsad.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCE754419C4238D004B2602 /* libButtonCompo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,7 @@
 		FFCE748919C41A73004B2602 = {
 			isa = PBXGroup;
 			children = (
+				FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */,
 				FFCE749419C41A73004B2602 /* dasdsa */,
 				FFCE74AE19C41A73004B2602 /* dasdsaTests */,
 				FFCE749319C41A73004B2602 /* Products */,
@@ -119,6 +158,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FFCE753619C42384004B2602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE753D19C42384004B2602 /* dsaddsdsdsadsad.app */,
+				FFCE753F19C42384004B2602 /* dsaddsdsdsadsadTests.xctest */,
+				FFCE754119C42384004B2602 /* libButtonCompo.a */,
+				FFCE754319C42384004B2602 /* ButtonCompoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +183,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FFCE754619C42393004B2602 /* PBXTargetDependency */,
 			);
 			name = dasdsa;
 			productName = dasdsa;
@@ -186,6 +237,12 @@
 			mainGroup = FFCE748919C41A73004B2602;
 			productRefGroup = FFCE749319C41A73004B2602 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FFCE753619C42384004B2602 /* Products */;
+					ProjectRef = FFCE753519C42384004B2602 /* dsaddsdsdsadsad.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FFCE749119C41A73004B2602 /* dasdsa */,
@@ -193,6 +250,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FFCE753D19C42384004B2602 /* dsaddsdsdsadsad.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = dsaddsdsdsadsad.app;
+			remoteRef = FFCE753C19C42384004B2602 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFCE753F19C42384004B2602 /* dsaddsdsdsadsadTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = dsaddsdsdsadsadTests.xctest;
+			remoteRef = FFCE753E19C42384004B2602 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFCE754119C42384004B2602 /* libButtonCompo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libButtonCompo.a;
+			remoteRef = FFCE754019C42384004B2602 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFCE754319C42384004B2602 /* ButtonCompoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ButtonCompoTests.xctest;
+			remoteRef = FFCE754219C42384004B2602 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FFCE749019C41A73004B2602 /* Resources */ = {
@@ -240,6 +328,11 @@
 			isa = PBXTargetDependency;
 			target = FFCE749119C41A73004B2602 /* dasdsa */;
 			targetProxy = FFCE74AC19C41A73004B2602 /* PBXContainerItemProxy */;
+		};
+		FFCE754619C42393004B2602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ButtonCompo;
+			targetProxy = FFCE754519C42393004B2602 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,7 +431,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = dasdsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../dsaddsdsdsadsad/**";
 			};
 			name = Debug;
 		};
@@ -349,7 +447,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = dasdsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../dsaddsdsdsadsad/**/**";
 			};
 			name = Release;
 		};
@@ -406,6 +509,7 @@
 				FFCE74B719C41A73004B2602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFCE74B819C41A73004B2602 /* Build configuration list for PBXNativeTarget "dasdsaTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +518,7 @@
 				FFCE74BA19C41A73004B2602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
